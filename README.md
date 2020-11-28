@@ -34,4 +34,6 @@ After trying various hyperparameters and model configurations we achieved an acc
 
 ## Confusion Matrix
 
+The confusion matrix shows that the true labels mostly fit the predicted labels.
+
 ![](img/confusionMatrix.png)
