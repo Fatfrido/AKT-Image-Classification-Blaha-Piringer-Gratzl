@@ -20,4 +20,5 @@ We decided to remove such images from the dataset which dramatically increased t
 
 ### Overfitting
 As we encountered massive overfitting (training accuracy was much higher than the validation accuracy) we tried to mitigate this problem with following actions:
- - Addition of a dropout layer
+ - Addition of dropout layers
+ - Usage of a `kernel_regularizer` (`l2`)
